@@ -11,10 +11,11 @@ Pod::Spec.new do |s|
   }
 
   s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.9'
 
   s.social_media_url = 'https://twitter.com/michalkonturek'
-  s.source       = { 
-    :git => "https://github.com/michalkonturek/MKUnits.git", 
+  s.source       = {
+    :git => "https://github.com/TheSufferfest/MKUnits.git",
     :tag => s.version.to_s
   }
 
